@@ -1,0 +1,163 @@
+/* Geral *************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+:root {
+  font-size: 62.5%; /*1 rem = a 10px   */
+}
+
+.container {
+  margin-left: 10rem;
+  margin-bottom: 10rem;
+}
+
+.button {
+  width: 16.4rem;
+  height: 4.3rem;
+  border-radius: 4.8rem;
+  border: none;
+  margin-right: 10rem;
+
+  color: #ffffff;
+  background-color: hsl(12, 83%, 62%);
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+
+/* Navigation *****************************/
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9.3rem;
+
+  background-color: hsl(0, 0%, 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 14.8rem;
+  height: 5.6rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.9rem;
+  margin-left: 10rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+  /* gap: 6.4rem; */
+}
+
+.menu a {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  background-color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  margin-right: 6.4rem;
+}
+
+/* Section Home ********************************/
+#home .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#home .text {
+  margin-top: 17rem;
+}
+
+#home h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  font-style: normal;
+  text-align: left;
+
+  width: 50rem;
+  height: 20.5rem;
+  line-height: 6.5rem;
+  margin-top: 0;
+
+  color: hsl(12, 83%, 62%);
+}
+
+#home p {
+  width: 36rem;
+  height: 9rem;
+
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  margin-bottom: 2.4rem;
+
+  color: hsl(218, 23%, 21%);
+}
+
+#home .img {
+  height: 59.1rem;
+  width: 60rem;
+  float: left;
+  margin-right: 10rem;
+}
+
+.divider {
+  width: 126.34rem;
+  height: 20rem;
+  margin-top: -6.1rem;
+
+  overflow: hidden;
+}
+
+/* Section destinations **************************/
+#destinations {
+  background-color: rgb(41, 50, 65);
+  margin-top: -5rem;
+}
+
+#destinations h2 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+
+  padding-top: 3.9rem;
+  margin-bottom: 4.7rem;
+}
+
+.card {
+  width: 27.7rem;
+  height: 45.6rem;
+}
+
+.card img {
+  margin-bottom: -3rem;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 25.1rem;
+  height: 11.3rem;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+
+#destinations button {
+  margin-left: 42%;
+}
