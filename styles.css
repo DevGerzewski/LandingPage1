@@ -20,7 +20,6 @@
   height: 4.3rem;
   border-radius: 4.8rem;
   border: none;
-  margin-right: 10rem;
 
   color: #ffffff;
   background-color: hsl(12, 83%, 62%);
@@ -38,6 +37,10 @@
 
   background-color: hsl(0, 0%, 100%);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#nav .button {
+  margin-right: 10rem;
 }
 
 .logo {
@@ -110,11 +113,19 @@
   float: left;
   margin-right: 10rem;
 }
-
+/* dividers **************************************/
 .divider {
   width: 126.34rem;
   height: 20rem;
   margin-top: -6.1rem;
+
+  overflow: hidden;
+}
+
+.divider2 {
+  width: 126.34rem;
+  height: 20rem;
+  margin-top: -11rem;
 
   overflow: hidden;
 }
@@ -136,28 +147,90 @@
   margin-bottom: 4.7rem;
 }
 
+.cards {
+  display: flex;
+  gap: 4.4rem;
+}
+
 .card {
   width: 27.7rem;
   height: 45.6rem;
 }
 
-.card img {
-  margin-bottom: -3rem;
-}
-
 .information {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  text-align: left;
 
+  margin-top: -7rem;
+  margin-left: 1.2rem;
   width: 25.1rem;
-  height: 11.3rem;
+  height: 12rem;
 
   background-color: rgb(255, 255, 255);
-  border-radius: 1rem;
+  border-radius: 2rem;
+}
+
+.information h3 {
+  margin-left: 2.3rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+.information p {
+  margin-left: 2.3rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+.information svg {
+  margin-left: 2.3rem;
+  width: 9.8rem;
+  height: 1.8rem;
+  margin-top: 0.4rem;
 }
 
 #destinations button {
   margin-left: 42%;
+  margin-bottom: 1rem;
+  margin-top: 10.9rem;
+}
+
+/* About Us **************************/
+#about .container {
+  margin-right: 10rem;
+}
+
+#about h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+
+#about .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  width: 62.8rem;
+  height: 10.8rem;
+
+  margin-top: 10.8rem;
+}
+
+#about p {
+  margin-bottom: 2.7rem;
+}
+
+#about svg {
+  margin-top: 3rem;
 }
